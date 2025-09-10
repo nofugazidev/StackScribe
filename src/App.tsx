@@ -3,8 +3,8 @@ import Hero from './components/hero'
 import { BrowserRouter, Routes, Route  } from 'react-router-dom'
 import Login from './components/login'
 import Register from './components/register'
-import Dashboard from './pages/dashboard'
 import ProtectedRoute from './components/routes/protecredRoute'
+import DashboardLayout from './components/dashboardLayout'
 const App: React.FC = () => {
   return (
     <BrowserRouter>
@@ -12,7 +12,7 @@ const App: React.FC = () => {
         <Route path='/' element={<Hero />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        <Route path='/dashboard' element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        <Route path='/dashboard' element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>} />
       </Routes>
     </BrowserRouter>
   )
