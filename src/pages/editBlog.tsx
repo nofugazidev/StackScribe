@@ -1,6 +1,6 @@
 import React from 'react'
 
-const EditBlog = () => {
+const EditBlog: React.FC = () => {
   return (
     <div>
       Edit blog
