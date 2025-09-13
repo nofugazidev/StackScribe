@@ -53,7 +53,7 @@ const Register: React.FC = () => {
               name="name"
               placeholder="enter your name here..."
               required
-              className="outline-none border-1 border border-solid border-gray-400 px-2 py-3 md:px-4 md:py-5 w-[300px] md:w-[400px] rounded"
+              className="outline-none border-2 border-solid border-gray-300 focus:border-purple-700 px-2 py-3 md:px-4 md:py-5 w-[300px] md:w-[400px] rounded"
               onChange={(e) => setFullName(e.target.value)}
             />
           </div>
@@ -66,7 +66,7 @@ const Register: React.FC = () => {
               name="email"
               placeholder="enter your email here..."
               required
-              className="outline-none border-1 border border-solid border-gray-400 px-2 py-3 md:px-4 md:py-5 w-[300px] md:w-[400px] rounded"
+              className="outline-none border-2 border-solid border-gray-300 focus:border-purple-700 px-2 py-3 md:px-4 md:py-5 w-[300px] md:w-[400px] rounded"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -83,7 +83,7 @@ const Register: React.FC = () => {
               name="password"
               placeholder="enter your password..."
               required
-              className="outline-none border-1 border border-solid border-gray-400 px-2 py-3 md:px-4 md:py-5 w-[300px] md:w-[400px] rounded"
+              className="outline-none border-2 border-solid border-gray-300 focus:border-purple-700 px-2 py-3 md:px-4 md:py-5 w-[300px] md:w-[400px] rounded"
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
